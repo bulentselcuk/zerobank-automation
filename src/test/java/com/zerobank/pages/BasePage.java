@@ -24,8 +24,8 @@ import org.openqa.selenium.support.PageFactory;
         @FindBy(linkText="Online Statements")
         public WebElement OnlineStatements;
 
-        public void navigate (String pageName) throws InterruptedException {
-        Driver.get ().findElement ( By.linkText ( pageName ) ).click ();
-        Thread.sleep ( 3000 );
-    }
-    }
+//        public void navigate (String pageName) throws InterruptedException {
+//        Driver.get ().findElement ( By.linkText ( pageName ) ).click ();
+//        Thread.sleep ( 3000 );
+//    }
+}

@@ -80,6 +80,6 @@ public class AccountStepDefinition {
         expectedList.add(string);
         expectedList.add(string2);
         expectedList.add(string3);
-        Assert.assertTrue("verify that ",expectedList.equals(tableText));
+        Assert.assertTrue("Verify",expectedList.equals(tableText));
     }
 }
