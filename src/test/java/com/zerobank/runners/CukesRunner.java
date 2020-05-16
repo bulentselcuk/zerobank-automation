@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         glue="com/zerobank/stepdefinitions",
         dryRun = false,
         strict = false,
-        tags ="@login",
-//        tags="@Account_activity",
+//        tags ="@login",
+        tags="@Account_activity",
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"}
