@@ -1,9 +1,6 @@
 @Account_activity
 Feature: Navigating to specific accounts in Accounts Activity
 
-
-
-
   Background:
     Given the user is logged in
 
